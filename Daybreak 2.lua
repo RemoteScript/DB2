@@ -122,8 +122,8 @@ MainPage:AddSwitch("Survivor Speed (LEGIT)", function(Boost)
    Boosting = Boost
     while Boosting do wait()
     pcall(function()
-if game.Players.LocalPlayer.Character:FindFirstChild("myCharString").Crystal and game.Players.LocalPlayer.Character.Humanoid.WalkSpeed > 18 and game.Players.LocalPlayer.Character.Humanoid.WalkSpeed < 21 then
-game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 22.25
+if game.Players.LocalPlayer.Character:FindFirstChild("myCharString") and game.Players.LocalPlayer.Character.Humanoid.WalkSpeed > 18 and game.Players.LocalPlayer.Character.Humanoid.WalkSpeed < 21 then
+game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 21.25
 end
 end)
 end
